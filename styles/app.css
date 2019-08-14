@@ -1,0 +1,9 @@
+.grid-row {
+    align-items: center;
+}
+
+.grid-card {
+    text-align: center;
+    margin-bottom: 0;
+    border: solid;
+}
