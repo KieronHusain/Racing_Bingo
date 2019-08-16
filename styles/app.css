@@ -7,7 +7,6 @@ body {
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -28,11 +27,11 @@ body {
 }
 
 .grid-card {
-    background-color: white;
+    background-color: #BDE4DC;
     align-items: center;
     text-align: center;
-    /* border-style: solid;
-    border-color: gray; */
+    border-style: solid;
+    border-color: #970c1c;
     border-radius: 10px;
     min-width: 150px;
     height: 110px;
@@ -40,4 +39,19 @@ body {
 
 table {
     border-collapse: unset;
+}
+
+nav {
+    background-color: #970c1c;
+    height: 65px;
+}
+
+.btn-success {
+    border: solid;
+    border-color: #085f24;
+}
+
+.btn-danger {
+    border: solid;
+    border-color: #970c1c;
 }
