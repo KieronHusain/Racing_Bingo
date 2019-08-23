@@ -1,9 +1,10 @@
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #dbdbdb;
     /* background-image: linear-gradient(#93291E, #ED213A); */
     /* background-image: linear-gradient(#cb2d3e, #ef473a); */
-    background-image: linear-gradient(#D31027, #EA384D);
+    /* background-image: linear-gradient(#D31027, #EA384D); */
 }
 
 .footer {
@@ -15,8 +16,6 @@ body {
     font-size: 0.75rem;
 }
 
-
-
 .grid-row {
     align-items: center;
 }
@@ -27,14 +26,15 @@ body {
 }
 
 .grid-card {
-    background-color: #BDE4DC;
+    background-color: #f72819;
+    color: white;
     align-items: center;
     text-align: center;
-    border-style: solid;
-    border-color: #970c1c;
+    /* border-style: solid;
+    border-color: #970c1c; */
     border-radius: 10px;
-    min-width: 150px;
-    height: 110px;
+    width: 20%;
+    height: 85px;
 }
 
 table {
@@ -42,7 +42,8 @@ table {
 }
 
 nav {
-    background-color: #970c1c;
+    /* background-color: #f72819; */
+    background-color: black;
     height: 65px;
 }
 
@@ -54,4 +55,25 @@ nav {
 .btn-danger {
     border: solid;
     border-color: #970c1c;
+}
+
+.grid-list-item {
+    align-items: center;
+    min-height: 100px;
+    background-color: yellow;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.grid-list-item-background {
+    background-color: yellow;
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* test */
+.test-border {
+    /* border: 1px solid red; */
 }
