@@ -60,7 +60,8 @@ nav {
 .grid-list-item {
     align-items: center;
     min-height: 100px;
-    background-color: yellow;
+    background-color: white;
+    border: 1px solid #a6a6a6;
     border-radius: 15px 15px 15px 15px;
     margin-left: 3%;
     margin-right: 3%;
@@ -69,8 +70,9 @@ nav {
 }
 
 .grid-list-item-background {
-    background-color: yellow;
+    background-color: white;
     border-radius: 15px 15px 15px 15px;
+    border: 1px solid #a6a6a6;
 }
 
 /* test */
