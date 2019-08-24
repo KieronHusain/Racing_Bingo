@@ -58,7 +58,7 @@ nav {
 }
 
 .grid-list-item {
-    align-items: center;
+    position: relative;
     min-height: 100px;
     background-color: white;
     border: 1px solid #a6a6a6;
@@ -75,7 +75,26 @@ nav {
     border: 1px solid #a6a6a6;
 }
 
+.grid-list-item-title {
+    position: absolute;
+}
+
+.grid-list-item-created-text {
+    position: absolute;
+    font-size: 0.75rem;
+    bottom: 10px;
+    right: 10px;
+    margin-bottom: 0px;
+}
+
 /* test */
 .test-border {
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
+
+@media only screen and (max-width: 768px) {
+    .grid-card
+    {
+        font-size: 0.75em;
+    }
+  }
