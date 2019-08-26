@@ -5,6 +5,12 @@ $(document).ready(function(){
     var listItemTitle = document.getElementsByClassName("grid-list-item-title");
     var listItemCreatedOn = document.getElementsByClassName("grid-list-item-created-on");
 
+    loadExistingGrids();
+
+    function loadExistingGrids(){
+
+    }
+
     $(".grid-list-item").click(function(){
         
         if(!$(this).hasClass("grid-list-item-create")){
@@ -39,10 +45,20 @@ $(document).ready(function(){
             dataType: 'json',
             cache: false,
             success: function(res) {
+                console.log(res);
                 var gridCards = document.getElementsByClassName("grid-card-text");
-                $.each(res, function(index, element) {
-                    gridCards[index].innerHTML = this;
-                });
+                
+                //Store this grid in local storage for later use
+                if (typeof(Storage) !== "undefined") {
+                    // Code for localStorage/sessionStorage.
+                    //sessionStorage.setItem("gridID", res.ID);
+                    $.each(res.cardData, function(index, element) {
+                        gridCards[index].innerHTML = this;
+                        //sessionStorage.setItem("gridCard" + index, this);
+                    });
+                } else {
+                // Sorry! No Web Storage support..
+                }
             },
             error: function(res) {
                 console.log("failed");
