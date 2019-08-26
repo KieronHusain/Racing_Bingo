@@ -1,19 +1,23 @@
+/* General */
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #dbdbdb;
+    background-color: #242424;
     /* background-image: linear-gradient(#93291E, #ED213A); */
     /* background-image: linear-gradient(#cb2d3e, #ef473a); */
     /* background-image: linear-gradient(#D31027, #EA384D); */
 }
 
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    font-size: 0.75rem;
+/* Navbar */
+nav {
+    /* background-color: #f72819; */
+    background-color: black;
+    height: 65px;
+}
+
+/* Grid */
+table {
+    border-collapse: unset;
 }
 
 .grid-row {
@@ -26,14 +30,15 @@ body {
 }
 
 .grid-card {
-    background-color: #f72819;
-    color: white;
+    background-color: #ededed;
+    color: black;
     align-items: center;
     text-align: center;
     /* border-style: solid;
     border-color: #970c1c; */
-    border-radius: 10px;
-    width: 20%;
+    border-radius: 8px;
+    width: 150px;
+    max-width: 150px;
     height: 95px;
 }
 
@@ -42,41 +47,29 @@ body {
     margin-right: 5%;
 }
 
-table {
-    border-collapse: unset;
-}
-
-nav {
-    /* background-color: #f72819; */
-    background-color: black;
-    height: 65px;
-}
-
-.btn-success {
-    border: solid;
-    border-color: #085f24;
-}
-
-.btn-danger {
-    border: solid;
-    border-color: #970c1c;
-}
-
+/* Grid List */
 .grid-list-item {
     position: relative;
     min-height: 100px;
-    background-color: white;
-    border: 1px solid #a6a6a6;
-    border-radius: 15px 15px 15px 15px;
+    background-color: #ededed;
+    border-radius: 8px 8px 8px 8px;
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 2%;
     margin-top: 2%;
 }
 
+.grid-list-item-create {
+    opacity: 0.25;
+}
+
+.grid-list-item-create:hover {
+    opacity: 1.0;
+}
+
 .grid-list-item-background {
     background-color: white;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 8px 8px 8px 8px;
     border: 1px solid #a6a6a6;
     padding: 10px 10px 10px 10px;
 }
@@ -86,10 +79,10 @@ nav {
     margin-left: 3%;
 }
 
-.grid-list-item-created-text {
+.grid-list-item-created-on {
     position: absolute;
     font-size: 0.75rem;
-    bottom: 10px;
+    bottom: 3px;
     right: 10px;
     margin-bottom: 0px;
 }
