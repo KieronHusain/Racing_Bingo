@@ -1,0 +1,11 @@
+.header-detail {
+    height: 4px;
+    background: #e30000;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-card
+    {
+        font-size: 0.75em;
+    }
+}

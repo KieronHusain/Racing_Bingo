@@ -4,48 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GridPrix</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles/app.css">
+    <link rel="stylesheet" type="text/css" href="styles/page.css">
+    <link rel="stylesheet" type="text/css" href="styles/gridstyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/griddetailsstyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/navbar.css">
 
-    <title>Racing Bingo</title>
+    <script src="https://kit.fontawesome.com/37779f0ab9.js"></script>
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#">Racing Bingo</a>
+    <div class="header-detail"></div>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">GridPrix</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gridtemplate.html">Grid</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Feedback</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Leaderboard</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
-            <form>
-                <button class="btn btn-success my-2 mx-2 my-sm-0" type="submit">Create Grid</button>
-                <button class="btn btn-danger my-2 my-sm-0" type="submit">Delete Grid</button>
-            </form>
         </div>
     </nav>
 
-    <div class="footer">
-        <p>© 2019 Kieron Husain - www.kieronhusain.com</p>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-lg-4 grid-details-container">
+                <div class="row m-0 grid-details">
+                    <div class="mx-3 my-3 grid-details-content">
+                        <!-- Grid Details -->
+                        <i class="fas fa-globe grid-details-flag"></i>
+                        <div class="d-flex justify-content-end">
+                            <h1 id="grid-details-title">Grid</h1>
+                        </div>
+                        <hr>
+                        <h3 id="grid-details-points">000</h3>
+                        <p>Hamilton wins the race</p>
+                        <p>Hamilton wins the race</p>
+                        <p>Hamilton wins the race</p>
+                        <!-- <h4 id="grid-details-points">HELLO</h4> -->
+                    </div>
+                </div>
+                <div class="row m-0 d-flex justify-content-center mt-2">
+                    <button type="button" class="btn btn-primary">Create</button>
+                    <button type="button" class="btn btn-link ml-2">Delete</button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8 order-first">
+                <table class="grid">
+                    <tr>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Hamilton wins the race</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                        <td class="grid-card">
+                            <div class="grid-card-text">Empty</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
