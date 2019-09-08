@@ -57,3 +57,29 @@ hr {
     margin-top: 12px;
 }
 
+#grid-details-hs {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#grid-details-hs-0 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background:#ffd882;
+}
+
+#grid-details-hs-1 {
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background: #d6d6d6;
+}
+
+#grid-details-hs-2 {
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background: #facc9d;
+}
+

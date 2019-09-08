@@ -21,8 +21,7 @@ body {
 }
 
 td:hover {
-    background-color: yellow;
-    border-top-left-radius: 10px;
+    background-color: rgba(96, 232, 42, 0.5);
 }
 
 tr:last-child {
@@ -61,4 +60,20 @@ table tr:last-child td {
 
 table tr td:last-child {
     border-right: 0;
+}
+
+.grid-top-left {
+    border-top-left-radius: 10px;
+}
+
+.grid-top-right {
+    border-top-right-radius: 10px;
+}
+
+.grid-bottom-left {
+    border-bottom-left-radius: 10px;
+}
+
+.grid-bottom-right {
+    border-bottom-right-radius: 10px;
 }
