@@ -3,6 +3,17 @@
     background: #e30000;
 }
 
+.footer {
+    height: 200px;
+    background: #575757;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     .grid-card
     {
