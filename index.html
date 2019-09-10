@@ -50,7 +50,7 @@
         <div class="row mt-4">
             <div class="col-lg-4">
                 <div class="row m-0 grid-details">
-                    <div class="mx-3 my-3 grid-details-content">
+                    <div class="mx-3 my-3 grid-details-content grid-details-hide">
                         <!-- Grid Details -->
                         <i class="fas fa-globe grid-details-flag"></i>
                         <div class="d-flex justify-content-end">
@@ -64,25 +64,23 @@
                             <p id="grid-details-hs-2">Null</p>
                         </div>
                     </div>
-                    <!-- <div class="mx-3 my-3 grid-details-creation">
-                        <i class="fas fa-globe"></i>
-                        <form class="d-flex">
+                    <div class="mx-3 my-3 grid-details-creation">
+                        <div class="d-flex justify-content-end">
+                            <h1 id="grid-details-title">Create Grid</h1>
+                        </div>
+                        <hr>   
+                        <form>
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Enter grid name">
                             </div>
-                            <button type="submit" class="btn btn-primary">Create</button>
+                            <div class="d-flex justify-content-center">
+                                <button type="button" id="grid-creation-button" class="btn btn-primary">Create</button>
+                            </div>
                         </form>
-                    </div> -->
-                </div>
-                <div class="row m-0 d-flex justify-content-center mt-2">
-                    <button type="button" class="btn btn-primary">Create</button>
-                    <button type="button" class="btn btn-link ml-2">Delete</button>
+                    </div>
                 </div>
             </div>
             <div class="grid-container col-12 col-lg-8 order-first">
-                <div class="grid-creation-overlay">
-                
-                </div>
                 <table class="grid">
                     <tr>
                         <td class="grid-card grid-top-left">
@@ -181,5 +179,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="scripts/griddetails.js"></script>
 </body>
 </html>

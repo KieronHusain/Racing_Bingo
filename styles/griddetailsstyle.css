@@ -9,7 +9,10 @@
 .grid-details-content {
     width: 100%;
     color: #363636;
-    /* display: none; */
+}
+
+.grid-details-hide {
+    display: none;
 }
 
 .grid-details-creation {
