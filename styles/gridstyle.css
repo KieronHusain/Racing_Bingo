@@ -1,5 +1,5 @@
 body {
-    background: #fafafa;
+    background: #cccccc;
 }
 
 .grid {
@@ -75,4 +75,54 @@ table tr td:last-child {
 
 .grid-bottom-right {
     border-bottom-right-radius: 10px;
+}
+
+.merc-col {
+    color: rgb(0,210,190);
+    font-weight: bold;
+}
+
+.fer-col {
+    color: rgb(220,0,0);
+    font-weight: bold;
+}
+
+.rb-col {
+    color: rgb(30,65,255);
+    font-weight: bold;
+}
+
+.mcl-col {
+    color: rgb(255,135,0);
+    font-weight: bold;
+}
+
+.ren-col {
+    color: rgb(255,245,0);
+    font-weight: bold;
+}
+
+.tr-col {
+    color: rgb(70,155,255);
+    font-weight: bold;
+}
+
+.rp-col {
+    color: rgb(245,150,255);
+    font-weight: bold;
+}
+
+.alf-col {
+    color: rgb(155,0,0);
+    font-weight: bold;
+}
+
+.haa-col {
+    color: rgb(189,158,87);
+    font-weight: bold;
+}
+
+.wil-col {
+    color: rgb(230,230,230);
+    font-weight: bold;
 }

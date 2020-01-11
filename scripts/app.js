@@ -34,7 +34,7 @@ $(document).ready(function(){
         today = mm + '/' + dd + '/' + yyyy;
         listItemCreatedOn[index].innerHTML = "Created: " + today;
 
-        getNewGrid();
+        //getNewGrid();
 
     });
 
